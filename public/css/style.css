@@ -454,10 +454,10 @@ input.gn-search:focus {
 	position:relative;
 }
 
-#intro{	
+/* #intro{	
 	background-image: url(../img/img-bg.jpg);
 	background-size: cover;
-}
+} */
 
 .intro .slogan {
 	padding:250px 0 60px;
