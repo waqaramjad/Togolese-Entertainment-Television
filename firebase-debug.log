@@ -1,0 +1,30 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\hp2\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.5.0
+[debug] Platform:     win32
+[debug] Node Version: v7.4.0
+[debug] Time:         Tue Sep 19 2017 00:10:40 GMT+0500 (Pakistan Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/IAy1JiLYhEnrbPdfMbwF17CkDI3gLtwNLWqDb7blq4pIKcw73a6ULM7CmyJp6vXn',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Sep 19 2017 00:10:41 GMT+0500 (Pakistan Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/togolese-entertainment-tv  
+ Tue Sep 19 2017 00:10:41 GMT+0500 (Pakistan Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/togolese-entertainment-tv/tokens  
+ Tue Sep 19 2017 00:10:43 GMT+0500 (Pakistan Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'togolese-entertainment-tv'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/togolese-entertainment-tv/uploads/-KuLOb2GzQeq5oI4DGOH?fileCount=99&message=  
+ Tue Sep 19 2017 00:10:49 GMT+0500 (Pakistan Standard Time)
